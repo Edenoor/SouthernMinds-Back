@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "breeds",
+  "info": {
+    "name": "Breed"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
